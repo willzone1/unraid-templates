@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name/>
+  <Repository>4id3y/youtube-dl</Repository>
+  <Registry>https://hub.docker.com/r/4id3y/youtube-dl/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://bitbucket.org/4id3y/youtube-dl/issues?status=new&amp;amp;status=open</Support>
+  <Overview/>
+  <Category>Downloaders: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://www.youtube.com/favicon.ico</Icon>
+  <ExtraParams/>
+  <DateInstalled>1510443870</DateInstalled>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/persistant</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>PLAYLIST</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>60</Value>
+      <Name>INTERVAL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>true</Value>
+      <Name>NFO</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="Download Location" Target="/persistant" Default="" Mode="rw" Description="Container Path: /persistant (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Playlist URL" Target="PLAYLIST" Default="" Mode="" Description="Youtube Playlist URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Interval" Target="INTERVAL" Default="" Mode="" Description="Interval in seconds before looping" Type="Variable" Display="always" Required="true" Mask="false">60</Config>
+  <Config Name="Create NFO" Target="NFO" Default="" Mode="" Description="Do you want NFOs to be created? (KODI)" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
+</Container>
