@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/4id3y/youtube-dl/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://bitbucket.org/4id3y/youtube-dl/issues?status=new&amp;amp;status=open</Support>
+  <Support>https://github.com/4id3y/unraid-youtube-dl/issues</Support>
   <Overview/>
   <Category>Downloaders: Status:Stable</Category>
   <WebUI/>
