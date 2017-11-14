@@ -44,6 +44,7 @@
   </Environment>
   <Config Name="Download Location" Target="/persistent" Default="" Mode="rw" Description="Container Path: /persistent (map to destination)" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Playlist URL" Target="PLAYLIST" Default="" Mode="" Description="Youtube Playlist URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Merge Output Format" Target="OUTPUT_FORMAT" Default="" Mode="" Description="Merge Output format: mkv, mp4, ogg, webm, fl" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Interval" Target="INTERVAL" Default="" Mode="" Description="Interval in seconds before looping" Type="Variable" Display="always" Required="true" Mask="false">60</Config>
   <Config Name="Create NFO" Target="NFO" Default="" Mode="" Description="Do you want NFOs to be created? (KODI)" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
 </Container>
