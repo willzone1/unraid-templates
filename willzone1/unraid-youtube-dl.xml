@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name Default="Youtube-DL">Youtube-DL</Name>
-  <Repository>4id3y/youtube-dl</Repository>
-  <Registry>https://hub.docker.com/r/4id3y/youtube-dl/</Registry>
+  <Name Default="youtube-dl-pdl">youtube-dl-pdl</Name>
+  <Repository>willzone1/youtube-dl-pdl  </Repository>
+  <Registry>https://hub.docker.com/r/willzone1/youtube-dl-pdl</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/4id3y/unraid-youtube-dl/issues</Support>
+  <Support>https://github.com/willzone1/youtube-dl-pdl/issues</Support>
   <Overview/>
   <Category>Downloaders: Status:Stable</Category>
   <WebUI/>
